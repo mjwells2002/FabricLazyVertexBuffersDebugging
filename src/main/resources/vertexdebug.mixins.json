@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.breadloaf.lazyvertexdebug.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinDebugScreen",
+    "MixinVertexBuffer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

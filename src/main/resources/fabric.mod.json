@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "vertexdebug",
+  "version": "${version}",
+  "name": "Fabric Lazy Vertex Buffer Debugging Mod (DO NOT USE IN PRODUCTION!, ONLY FOR TESTING!)",
+  "description": "DO NOT USE IN PRODUCTION!, ONLY FOR TESTING!",
+  "authors": [
+    "BreadLoaf"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "xyz.breadloaf.lazyvertexdebug.VertexBufferDebug"
+    ]
+  },
+  "mixins": [
+    "vertexdebug.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "java": ">=17"
+  }
+}
